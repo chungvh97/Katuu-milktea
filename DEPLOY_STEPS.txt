@@ -4,7 +4,13 @@
 │  ✅ Source của bạn SẴN SÀNG deploy lên Vercel!              │
 │  Build test: THÀNH CÔNG ✓                                   │
 │  Files cần thiết: ĐÃ TẠO ✓                                  │
+│  .vercelignore: ĐÃ SỬA ✓ (Fixed Nov 28, 2025)             │
 └─────────────────────────────────────────────────────────────┘
+
+⚠️  IMPORTANT: .vercelignore đã được sửa lại!
+   - Removed: .git, *.md từ ignore list
+   - Reason: Vercel cần .git để track deployment
+   - See: VERCELIGNORE_FIX.md để biết chi tiết
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
