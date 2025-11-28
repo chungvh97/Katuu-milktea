@@ -67,7 +67,7 @@ const RootLayout: React.FC = () => {
 
     return (
         <ThemeProvider>
-            <div className="min-h-screen font-sans text-stone-800 bg-white dark:bg-stone-900 dark:text-stone-100 transition-colors duration-200">
+            <div className="min-h-screen font-sans text-stone-800 bg-white dark:bg-stone-900 dark:text-stone-100 transition-colors duration-200 overflow-x-hidden">
                 <Header isScrolled={isHeaderScrolled} />
 
                 {/* Loading screen during navigation */}
